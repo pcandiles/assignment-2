@@ -1,27 +1,27 @@
 {
  "threshold": 0.08,
  "band": {
-  "pass_below": 0.08,
-  "fail_at_or_above": 0.09
+  "pass_below": 0.05,
+  "fail_at_or_above": 0.99
  },
  "chosen_on": "valid",
  "cost_matrix_eur": {
   "false_negative": 50.0,
-  "false_positive": 2.0,
+  "false_positive": 5.0,
   "true_positive": 0.0,
   "true_negative": 0.0,
-  "human_review": 0.5
+  "human_review": 0.08
  },
  "base_rate": 0.05,
  "test": {
-  "cost_per_1000_threshold": 82.6086956521739,
-  "cost_per_1000_band": 82.6086956521739,
-  "review_share_band": 0.0
+  "cost_per_1000_threshold": 206.52173913043475,
+  "cost_per_1000_band": 7.304347826086957,
+  "review_share_band": 0.09130434782608696
  },
  "strategies_cost_per_1000_test": {
   "do_nothing": 2500.0,
-  "human_checks_everything": 500.0,
-  "model_alone": 82.6086956521739,
-  "model_plus_human_review": 82.6086956521739
+  "human_checks_everything": 80.0,
+  "model_alone": 206.52173913043475,
+  "model_plus_human_review": 7.304347826086957
  }
 }
